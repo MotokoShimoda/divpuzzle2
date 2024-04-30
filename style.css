@@ -1,4 +1,8 @@
-.a {
+.middleboxes {
+  display: flex;
+}
+
+.pborange {
   display: flex;
 }
 
@@ -42,10 +46,4 @@
   width: 400px;
   height: 100px;
   background: #fff700;
-}
-
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
 }
